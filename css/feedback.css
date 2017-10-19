@@ -1,0 +1,49 @@
+#container {
+	padding: 0 40px;
+}
+
+#container>.row>.col-xs-9 {
+	padding: 0 60px 120px 20px;
+}
+
+#container>.row>.col-xs-9>h4 {
+	font-weight: bold;
+}
+
+#container>.row>.col-xs-9>form {
+	padding: 0 30px;
+	color: #737373;
+}
+
+#container>.row>.col-xs-9>form>.form-group {
+	margin: 40px 0;
+}
+
+#container>.row>.col-xs-9>form>.form-group>textarea {
+	display: block;
+	height: 150px;
+}
+
+#container>.row>.col-xs-9>form>#correlative-link {
+	padding: 30px 20px;
+	background-color: #f4f7f8;
+}
+
+#container>.row>.col-xs-9>form>.form-group:last-child input {
+	width: 122px;
+	height: 52px;
+	color: #FFFFFF;
+	border-radius: 0;
+	background-color: #39b94e;
+	float: right;
+}
+
+#container>.row>.col-xs-3 {
+	padding: 20px;
+	background-color: #f4f7f8;
+}
+
+#container>.row>.col-xs-3>h4 {
+	font-weight: bold;
+	margin-bottom: 30px;
+}

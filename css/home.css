@@ -1,0 +1,244 @@
+	.carousel {
+		margin-top: -20px;
+	}
+	
+	#introduce {
+		padding: 40px 25px;
+	}
+	
+	#introduce * {
+		box-sizing: border-box;
+		padding: 10px;
+		margin: 0;
+	}
+	
+	#introduce h3 {
+		color: #333333;
+	}
+	
+	#introduce p {
+		color: #5e6267;
+		font-size: 14px;
+		line-height: 28px;
+	}
+	
+	#introduce a {
+		font-size: 14px;
+		color: #3399cc;
+		float: right;
+	}
+	
+	#introduce a:hover {
+		text-decoration: none;
+	}
+	
+	#employee-show {
+		box-sizing: border-box;
+		margin: 20px 0 40px 0;
+		padding: 20px 60px 40px 60px;
+	}
+	
+	#employee-show * {
+		box-sizing: border-box;
+	}
+	
+	#employee-show h1 {
+		color: #9D9D9D;
+	}
+	
+	#employee-show .carousel-indicators {
+		bottom: -40px;
+	}
+	
+	#employee-show .carousel-indicators li {
+		border: 1px solid #DDDDDD;
+	}
+	
+	#employee-show .carousel-indicators li.active {
+		background-color: #66CCFF;
+	}
+	
+	#employee-show .row div {
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	#employee-show .item .col-xs-3 {
+		margin-top: 20px;
+		padding: 10px 16px;
+	}
+	
+	#employee-show .item .col-xs-3>div {
+		padding: 10px 20px;
+		border: 1px solid #DDDDDD;
+		border-radius: 5px;
+		box-shadow: 0 2px 2px #E5E5E5;
+	}
+	
+	#employee-show .item .col-xs-3 h5 {
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	
+	#employee-show .item .col-xs-3 p {
+		font-size: 16px;
+		color: #999999;
+		text-indent: 2em;
+		text-align: left;
+		line-height: 30px;
+	}
+	
+	#company-view {
+		padding: 0 60px;
+	}
+	
+	#company-view h1 {
+		text-align: center;
+		color: #9D9D9D;
+	}
+	
+	#view-box,
+	#view-box *,
+	#view-box *:before,
+	#view-box *:after {
+		box-sizing: border-box;
+	}
+	
+	#view-box {
+		position: relative;
+		padding: 0 10px;
+		margin-bottom: 30px;
+	}
+	
+	#view-box::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	#view-box::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		height: 100%;
+		width: 4px;
+		background-color: #D7E4ED;
+	}
+	
+	.timeline-block>.circle-box {
+		display: block;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-40%);
+		width: 20px;
+		height: 20px;
+		margin-top: 5px;
+		border: 1px solid #9D9D9D;
+		border-radius: 50%;
+		background-color: #FFFFFF;
+	}
+	
+	.timeline-block>.circle-box>.inner-circle {
+		display: block;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #DEDEDE;
+	}
+	
+	.timeline-content {
+		position: relative;
+		width: 45%;
+		border-radius: 5px;
+		border: 1px solid #F8F8FF;
+		background-color: #F8F8FF;
+		padding: 1em;
+		margin: 1.6em 0;
+		box-shadow: -2px 2px 2px #DEDEDE;
+	}
+	
+	.timeline-date {
+		display: inline-block;
+		width: 100px;
+		font-size: 13px;
+		padding: 0.8em 0;
+		opacity: 0.7;
+		position: absolute;
+		left: 52%;
+		margin-top: -3px;
+	}
+	
+	.timeline-block:nth-of-type(odd) .timeline-content::before {
+		content: '';
+		position: absolute;
+		top: 5px;
+		left: 100%;
+		height: 0;
+		width: 0;
+		border: 8px solid white;
+		border-left: 8px solid #F8F8FF;
+	}
+	
+	.timeline-block:nth-of-type(even) .timeline-content::before {
+		content: '';
+		position: absolute;
+		top: 5px;
+		right: 100%;
+		height: 0;
+		width: 0;
+		border: 8px solid transparent;
+		border-right: 8px solid #F8F8FF;
+	}
+	
+	.timeline-block:nth-of-type(even) .timeline-content {
+		position: relative;
+		left: 55%;
+		box-shadow: 2px 2px 2px #DEDEDE;
+	}
+	
+	.timeline-block:nth-of-type(even) .timeline-date {
+		display: inline-block;
+		width: 100px;
+		font-size: 13px;
+		padding: 0.8em 0;
+		opacity: 0.7;
+		position: absolute;
+		left: 42%;
+		margin-top: -3px;
+	}
+	
+	.timeline-block:nth-of-type(odd):hover .timeline-content::before {
+		content: '';
+		position: absolute;
+		top: 5px;
+		left: 100%;
+		height: 0;
+		width: 0;
+		border: 8px solid white;
+		border-left: 8px solid #64b7f7;
+	}
+	
+	.timeline-block:nth-of-type(even):hover .timeline-content::before {
+		content: '';
+		position: absolute;
+		top: 5px;
+		right: 100%;
+		height: 0;
+		width: 0;
+		border: 8px solid transparent;
+		border-right: 8px solid #64b7f7;
+	}
+	
+	.timeline-block:hover .timeline-content {
+		background-color: #64b7f7;
+		color: #FFFFFF;
+	}
+	
+	.timeline-block:hover .inner-circle {
+		background-color: #64b7f7;
+	}
